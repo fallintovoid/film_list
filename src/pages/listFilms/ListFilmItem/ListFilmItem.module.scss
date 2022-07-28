@@ -1,0 +1,39 @@
+.list_item {
+    height: 500px;
+    width: 300px;
+    background-color: #FFDC00;
+    margin-bottom: 30px;
+    border-radius: 5% 5%;
+    cursor: pointer;
+    &__foto {
+        width: 100%;
+        height: 90%;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        &__rating {
+           position: relative; 
+           top: -97%;
+           left: 5%;
+           height: 50px;
+           width: 50px;
+           border-radius: 50%;
+           z-index: 1000;
+           background-color: white;
+           border: red 2px solid;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           font-weight: 700;
+        }
+    }
+    &__info {
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        text-align: center;
+    }
+}

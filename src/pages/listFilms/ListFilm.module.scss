@@ -1,0 +1,12 @@
+.list_film {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    width: 80%;
+    min-height: 80%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 15px;
+}

@@ -1,0 +1,19 @@
+.favfilm {
+    width: 90%;
+    height: 150px;
+    background-color: rgb(218, 210, 210);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    &_foto {
+        min-width: 210px;
+        height: 100%;
+        img {
+            width: 100%;
+            height: 300px;
+            transform: translateY(-50px);
+        }
+    }
+}
